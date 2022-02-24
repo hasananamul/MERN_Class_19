@@ -41,11 +41,11 @@ add_devs_data.addEventListener("submit", function (event) {
       Location: Location.value,
     })
     .then((response) => {
-      let name = document.querySelector('input[name ="name"]');
-      let Age = document.querySelector('input[name ="Age"]');
-      let Photo = document.querySelector('input[name ="Photo"]');
-      let Location = document.querySelector('input[name ="Location"]');
-      let number = document.querySelector('input[name ="number"]');
+      // let name = document.querySelector('input[name ="name"]');
+      // let Age = document.querySelector('input[name ="Age"]');
+      // let Photo = document.querySelector('input[name ="Photo"]');
+      // let Location = document.querySelector('input[name ="Location"]');
+      // let number = document.querySelector('input[name ="number"]');
 
       name.value = "";
       Age.value = "";
